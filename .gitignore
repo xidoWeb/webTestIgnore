@@ -1,0 +1,11 @@
+
+# .gitignore 주석은 '#'이다.
+# github에 자료를 올리지 않도록 강제 처리하는 파일
+# 반드시 git디렉토리상 최상단에 작성
+# '**'은 모든 디렉토리
+# '*.*' 모든파일이름.모든확장자
+# *.p*  ->  a.psd  b.psb  c.paa asdfasdfdsaf.png
+
+**/work/
+design/**/*.psd
+design/**/*.ai
